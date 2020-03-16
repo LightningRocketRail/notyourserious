@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Besichtigungstermine</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -19,10 +20,26 @@
   </ul>
   <hr>
   <form action="mailto:nikolaos.kapretsos@desy.de" method="post" enctype="text/plain">
-    <label>Name:</label>
-    <input type="text" name="username" value=""><br>
-    <label>E-Mail:</label>
-    <input type="email" name="useremail" value=""><br>
+    <table>
+      <tr>
+        <td>
+          <label>Name:</label>
+        </td>
+        <td>
+          <input type="text" name="username" value="">
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+          <label>E-Mail:</label>
+        </td>
+        <td>
+          <input type="email" name="usermail" value="">
+        </td>
+      </tr>
+    </table>
     <label>Message:</label><br>
     <textarea name="usermessage" rows="10" cols="30"></textarea><br>
     <input type="submit" name="">
